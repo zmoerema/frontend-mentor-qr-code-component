@@ -26,7 +26,7 @@ Your challenge is to build out this QR code component and get it looking as clos
 ### Links
 
 - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/)
-- Live Site URL: [GitHub Pages](https://zmoerema.github.io/)
+- Live Site URL: [GitHub Pages](https://zmoerema.github.io/qr-code-component/)
 
 ## My process
 
