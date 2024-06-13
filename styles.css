@@ -5,7 +5,7 @@
     --Dark-blue: hsl(218, 44%, 22%);
 }
 
-html {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -21,34 +21,34 @@ body {
     height: 100vh;
 }
 
-h1 {
-    color: var(--Dark-blue);
-    text-align: center;
-    font-size: 22px;
-    padding: 0 30px;
-}
-
-p {
-    color: var(--Grayish-blue);
-    text-align: center;
-    font-size: 15px;
-    padding: 0 30px;
-}
-
-img {
-    border-radius: 20px;
-    padding: 15px;
-    height: 288px;
-}
-
-main {
+.card {
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
     background-color: var(--White);
     border-radius: 20px;
+    padding: 15px;
     width: 320px;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+}
+
+.card_title {
+    color: var(--Dark-blue);
+    text-align: center;
+    font-size: 22px;
+}
+
+.card_info {
+    color: var(--Grayish-blue);
+    padding: 0 15px 20px 15px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.card_img {
+    border-radius: 20px;
+    width: 100%;
 }
